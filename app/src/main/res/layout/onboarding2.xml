@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="40dp">
+
+    <ImageView
+        android:id="@+id/girl_dog_cut_hair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/girl_dog_cut_hair"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_HaloTeman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_bold"
+        android:text="Grooming"
+        android:layout_marginTop="340dp"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_Bingung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/cabin_semibold"
+        android:text="@string/desc_grooming"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_HaloTeman" />
+
+    <android.widget.Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:width="120dp"
+        android:height="40dp"
+        android:background="@drawable/rounded_bg_button"
+        android:fontFamily="@font/cabin_semibold_italic"
+        android:text="@string/next"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/btnTextColor"
+        android:textSize="20sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:elevation="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <android.widget.Button
+        android:id="@+id/btn_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:width="120dp"
+        android:height="40dp"
+        android:background="@drawable/rounded_bg_button"
+        android:fontFamily="@font/cabin_semibold_italic"
+        android:text="@string/skip"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/btnTextColor"
+        android:textSize="20sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:elevation="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

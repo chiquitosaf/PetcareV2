@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">PetCareV2</string>
+    <string name="skip">Skip</string>
+    <string name="bingung">Bingung nyari tempat kebutuhan anabul tersayang?</string>
+    <string name="disini_tempatnya">Disini tempatnya!</string>
+    <string name="next">Next</string>
+    <string name="halo_teman">Halo teman!</string>
+    <string name="desc_grooming">Pesen layanan Grooming PetCare biar si lucu tetep rapi, bersih, dan wangi!</string>
+    <string name="desc_grooming_2">Biar tetep enak buat dipeluk</string>
+    <string name="desc_onboarding4">Mulai perawatan hewanmu sekarang!</string>
+    <string name="desc_onboarding4_2">Daftar gratis sekarang juga!</string>
+    <string name="btn_daftar_sekarang">Daftar Sekarang!</string>
+    <string name="desc_petshop_2">Beli semua kebutuhan hewanmu disini!</string>
+    <string name="desc_petshop">Pet Shop</string>
+    <string name="txt_heading_login">Selamat datang kembali teman!</string>
+    <string name="txt_heading2_login">Log in sekarang untuk masuk ke PetCare!</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="login_disini"><u>login disini!</u></string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="daftar_disini"><u>Daftar disini!</u></string>
+    <string name="txt_heading_registrasi">Selamat datang teman baru!</string>
+    <string name="txt_heading2_registrasi">Daftar sekarang untuk membuat akun</string>
+    <string name="confirm_password">Confirm Password</string>
+</resources>
