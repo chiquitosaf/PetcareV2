@@ -24,4 +24,5 @@
     <string name="txt_heading_registrasi">Selamat datang teman baru!</string>
     <string name="txt_heading2_registrasi">Daftar sekarang untuk membuat akun</string>
     <string name="confirm_password">Confirm Password</string>
+    <string name="grooming">Grooming</string>
 </resources>

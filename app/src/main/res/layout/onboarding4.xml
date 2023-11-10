@@ -1,94 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
-    android:padding="40dp">
-
-    <ImageView
-        android:id="@+id/dog_guy_love"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/_2_pet_cinta_transparent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txt_HaloTeman"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
-        android:fontFamily="@font/cabin_bold"
-        android:text="@string/desc_onboarding4"
-        android:textColor="@color/white"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/txt_Bingung"
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:fontFamily="@font/cabin_semibold"
-        android:text="@string/desc_onboarding4_2"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_HaloTeman" />
+        android:layout_height="match_parent"
+        android:fillViewport="true">
 
-    <android.widget.Button
-        android:id="@+id/btn_next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:width="288dp"
-        android:height="44dp"
-        android:background="@drawable/rounded_bg_button"
-        android:elevation="6dp"
-        android:fontFamily="@font/cabin_semibold_italic"
-        android:gravity="center_vertical|center_horizontal"
-        android:text="@string/btn_daftar_sekarang"
-        android:textAlignment="center"
-        android:textAllCaps="false"
-        android:textColor="@color/btnTextColor"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="40dp">
 
-    <TextView
-        android:id="@+id/txt_sudah_punya_akun"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/cabin_semibold"
-        android:gravity="center_horizontal"
-        android:text="@string/sudah_punya_akun"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:layout_marginTop="6dp"
-        android:layout_marginStart="32dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/txt_login_disini"
-        app:layout_constraintTop_toBottomOf="@+id/btn_next" />
+            <ImageView
+                android:id="@+id/dog_guy_love"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/_2_pet_cinta_transparent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/txt_login_disini"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/cabin_semibold"
-        android:text="@string/login_disini"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:layout_marginTop="6dp"
-        android:layout_marginStart="3dp"
-        app:layout_constraintStart_toEndOf="@id/txt_sudah_punya_akun"
-        app:layout_constraintTop_toBottomOf="@+id/btn_next"/>
+            <TextView
+                android:id="@+id/txt_HaloTeman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:fontFamily="@font/cabin_bold"
+                android:text="@string/desc_onboarding4"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
+            <TextView
+                android:id="@+id/txt_Bingung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/cabin_semibold"
+                android:text="@string/desc_onboarding4_2"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_HaloTeman" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <android.widget.Button
+                android:id="@+id/btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:width="288dp"
+                android:height="44dp"
+                android:background="@drawable/rounded_bg_button"
+                android:elevation="6dp"
+                android:fontFamily="@font/cabin_semibold_italic"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/btn_daftar_sekarang"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/btnTextColor"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_sudah_punya_akun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cabin_semibold"
+                android:gravity="center_horizontal"
+                android:text="@string/sudah_punya_akun"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="32dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/txt_login_disini"
+                app:layout_constraintTop_toBottomOf="@+id/btn_next" />
+
+            <TextView
+                android:id="@+id/txt_login_disini"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cabin_semibold"
+                android:text="@string/login_disini"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="3dp"
+                app:layout_constraintStart_toEndOf="@id/txt_sudah_punya_akun"
+                app:layout_constraintTop_toBottomOf="@+id/btn_next"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>
