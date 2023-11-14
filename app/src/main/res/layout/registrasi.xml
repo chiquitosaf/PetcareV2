@@ -17,9 +17,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/toolbar_register"
-                android:paddingBottom="30dp"
-                android:paddingEnd="30dp"
-                android:paddingStart="30dp">
+                android:paddingBottom="16dp"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp">
 
                 <TextView
                     android:id="@+id/heading_registrasi"
