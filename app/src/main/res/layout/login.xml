@@ -2,6 +2,7 @@
 <layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -11,9 +12,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <include
+            <!-- toolbar -->
+            <RelativeLayout
                 android:id="@+id/toolbar_login"
-                layout="@layout/toolbar_backblack_whitebg"/>
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <ImageButton
+                    android:contentDescription="back button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="13dp"
+                    android:src="@drawable/baseline_arrow_back_30"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"/>
+            </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
